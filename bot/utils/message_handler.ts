@@ -8,6 +8,6 @@ export const ifsc_message_handlers = Composer.on("text", async (msg) => {
   }
   let r = await ifsc.fetchDetails(msg.update.message.text);
   msg.reply(
-    `BANK: ${r.BANK}\nIFSC: ${r.IFSC}\BRANCH: ${r.BRANCH}\nADDRESS: ${r.ADDRESS}\nCONTACT: ${r.CONTACT}\nCITY: ${r.CITY}\nDISTRICT: ${r.DISTRICT}\nSTATE: ${r.STATE}`
+    `BANK: ${r.BANK}\nIFSC: ${r.IFSC}\nBRANCH: ${r.BRANCH}\nADDRESS: ${r.ADDRESS}\nCONTACT: ${r.CONTACT}\nCITY: ${r.CITY}\nDISTRICT: ${r.DISTRICT}\nSTATE: ${r.STATE}`
   );
 });
