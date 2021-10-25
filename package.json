@@ -1,0 +1,24 @@
+{
+  "name": "telegramifsctoolset",
+  "version": "0.1.0",
+  "description": "Indian Financial Systems Code (Bank Branch Codes)",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhijithNT/TelegramIFSCtoolset.git"
+  },
+  "keywords": [
+    "telegram",
+    "telegram-bot",
+    "IFSC"
+  ],
+  "author": "Abhijith N T",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AbhijithNT/TelegramIFSCtoolset/issues"
+  },
+  "homepage": "https://github.com/AbhijithNT/TelegramIFSCtoolset#readme"
+}
